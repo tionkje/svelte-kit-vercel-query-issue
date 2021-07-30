@@ -1,5 +1,6 @@
 <script context="module">
   import { writable } from "svelte/store";
+  export const prerender = true;
 
   export async function load({ page }) {
     const { query } = page;
